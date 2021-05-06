@@ -73,4 +73,7 @@ void MAX30102_voidReadSeqRegisters(u8 Cpy_u8StartRegister, u8 * p_u8Values, u8 C
 void MAX30102_voidInit(void);
 void MAX30102_voidGetReadings(u32 * p_u8IR_RxBuffer, u32 * p_u8Red_RxBuffer);
 
+u8 MAX30102_u8GetSPO2Value();
+u8 MAX30102_u8GetHRValue();
+
 #endif /* MAX30102_INTERFACE_H_ */
