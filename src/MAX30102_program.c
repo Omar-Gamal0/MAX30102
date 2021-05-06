@@ -137,12 +137,12 @@ void MAX30102_voidInit(void)
 
 }
 
-u8 MAX30102_u8GetSPO2Value()
+u8 MAX30102_u8GetSPO2Value(void)
 {
 
 }
 
-u8 MAX30102_u8GetHRValue()
+u8 MAX30102_u8GetHRValue(void)
 {
 
 }
